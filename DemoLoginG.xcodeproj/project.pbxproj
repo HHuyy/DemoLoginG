@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B857909301C78FBC0B8441AA /* Pods_DemoLoginG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9187B2C2E4A5ED4F2B17FC4 /* Pods_DemoLoginG.framework */; };
 		DB94A464211A9E5100EA19C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94A463211A9E5100EA19C2 /* AppDelegate.swift */; };
 		DB94A466211A9E5100EA19C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94A465211A9E5100EA19C2 /* ViewController.swift */; };
 		DB94A469211A9E5100EA19C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB94A467211A9E5100EA19C2 /* Main.storyboard */; };
 		DB94A46B211A9E5100EA19C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB94A46A211A9E5100EA19C2 /* Assets.xcassets */; };
 		DB94A46E211A9E5100EA19C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB94A46C211A9E5100EA19C2 /* LaunchScreen.storyboard */; };
+		DBBD0C48211ADD70002A62D3 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBBD0C47211ADD70002A62D3 /* credentials.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9187B2C2E4A5ED4F2B17FC4 /* Pods_DemoLoginG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoLoginG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46D61F13215EEF9191D84B4 /* Pods-DemoLoginG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLoginG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoLoginG/Pods-DemoLoginG.debug.xcconfig"; sourceTree = "<group>"; };
+		C5A420222CFDC80E37DEE32A /* Pods-DemoLoginG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLoginG.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoLoginG/Pods-DemoLoginG.release.xcconfig"; sourceTree = "<group>"; };
 		DB94A460211A9E5100EA19C2 /* DemoLoginG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLoginG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB94A463211A9E5100EA19C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB94A465211A9E5100EA19C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		DB94A46A211A9E5100EA19C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB94A46D211A9E5100EA19C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB94A46F211A9E5100EA19C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBD0C47211ADD70002A62D3 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B857909301C78FBC0B8441AA /* Pods_DemoLoginG.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		035B934CEF52650F3F5E1CC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B46D61F13215EEF9191D84B4 /* Pods-DemoLoginG.debug.xcconfig */,
+				C5A420222CFDC80E37DEE32A /* Pods-DemoLoginG.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		900C9EF9C1901FD477559BE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9187B2C2E4A5ED4F2B17FC4 /* Pods_DemoLoginG.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB94A457211A9E5100EA19C2 = {
 			isa = PBXGroup;
 			children = (
 				DB94A462211A9E5100EA19C2 /* DemoLoginG */,
 				DB94A461211A9E5100EA19C2 /* Products */,
+				035B934CEF52650F3F5E1CC3 /* Pods */,
+				900C9EF9C1901FD477559BE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +85,7 @@
 				DB94A467211A9E5100EA19C2 /* Main.storyboard */,
 				DB94A46A211A9E5100EA19C2 /* Assets.xcassets */,
 				DB94A46C211A9E5100EA19C2 /* LaunchScreen.storyboard */,
+				DBBD0C47211ADD70002A62D3 /* credentials.plist */,
 				DB94A46F211A9E5100EA19C2 /* Info.plist */,
 			);
 			path = DemoLoginG;
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB94A472211A9E5100EA19C2 /* Build configuration list for PBXNativeTarget "DemoLoginG" */;
 			buildPhases = (
+				E9A617FCF26DC2DCF84A76A0 /* [CP] Check Pods Manifest.lock */,
 				DB94A45C211A9E5100EA19C2 /* Sources */,
 				DB94A45D211A9E5100EA19C2 /* Frameworks */,
 				DB94A45E211A9E5100EA19C2 /* Resources */,
+				F58D8885CAEF7C383ACE6C6B /* [CP] Embed Pods Frameworks */,
+				6A491D18D76B195BD1AF5536 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +154,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB94A46E211A9E5100EA19C2 /* LaunchScreen.storyboard in Resources */,
+				DBBD0C48211ADD70002A62D3 /* credentials.plist in Resources */,
 				DB94A46B211A9E5100EA19C2 /* Assets.xcassets in Resources */,
 				DB94A469211A9E5100EA19C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A491D18D76B195BD1AF5536 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoLoginG/Pods-DemoLoginG-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoLoginG/Pods-DemoLoginG-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A617FCF26DC2DCF84A76A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoLoginG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F58D8885CAEF7C383ACE6C6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoLoginG/Pods-DemoLoginG-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoLoginG/Pods-DemoLoginG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB94A45C211A9E5100EA19C2 /* Sources */ = {
@@ -272,6 +364,7 @@
 		};
 		DB94A473211A9E5100EA19C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46D61F13215EEF9191D84B4 /* Pods-DemoLoginG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +379,7 @@
 		};
 		DB94A474211A9E5100EA19C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A420222CFDC80E37DEE32A /* Pods-DemoLoginG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
